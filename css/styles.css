@@ -20,22 +20,6 @@ nav {
         text-decoration: none;
         padding: 7px;
         font-family: poppins; }
-        nav ul li a nav input[type=text] {
-          float: right;
-          color: red;
-          padding: 6px;
-          margin-top: 8px;
-          margin-right: 16px;
-          border: none;
-          font-size: 17px; }
-          nav ul li a nav input[type=text] nav button {
-            float: left;
-            width: 10px;
-            padding: 10px;
-            background: blue;
-            color: white;
-            border: 1px solid grey;
-            cursor: pointer; }
 
 body, html {
   height: 100%;
@@ -43,7 +27,7 @@ body, html {
   font-family: Arial, Helvetica, sans-serif; }
 
 .container1 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/brick.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/home.jpg");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -58,7 +42,7 @@ body, html {
     color: white; }
   .container1 span {
     font-size: 15px; }
-  .container1 .container1-text .primary-button {
+  .container1 .container1-text .button-1 {
     outline: 0;
     display: inline-block;
     padding: 12px 28px;
@@ -67,6 +51,59 @@ body, html {
     border-radius: 2px;
     background-color: #ee534f;
     text-align: center;
+    transition: all 0.5s;
     cursor: pointer; }
+  .container1 .button-1 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    color: white; }
+  .container1 .button-1 span:after {
+    content: "279E";
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+    color: white; }
+  .container1 .button-1:hover span {
+    padding-right: 25px;
+    color: white; }
+  .container1 .container1-text .button-2 {
+    outline: 0;
+    display: inline-block;
+    padding: 12px 28px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 2px;
+    background-color: transparent;
+    text-align: center;
+    cursor: pointer; }
+  .container1 .button-2 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    color: white; }
+  .container1 .button-2 span:after {
+    content: "279E";
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+    color: white; }
+  .container1 .button-2:hover span {
+    padding-right: 25px;
+    color: white; }
+
+.first-section {
+  display: grid;
+  grid-template-columns: auto auto;
+  height: 50%;
+  background-color: white;
+  margin: 80px;
+  margin-left: 180px; }
 
 /*# sourceMappingURL=styles.css.map */
