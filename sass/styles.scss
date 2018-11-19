@@ -126,5 +126,17 @@ nav {
   background-color: white;
   margin: 80px;
   margin-left:180px;
+    .border{
+      width:10%;
+      color: #ee534f;
+      border-top: 3px solid;
+      opacity:30%;
+    }
+    .border2{
+      display:grid;
+      width: 30%;
+      color: lightgrey;
+      border-top: 3px solid;
+    }
+  }
 
-}
