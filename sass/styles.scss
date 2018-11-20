@@ -22,7 +22,9 @@ nav {
           text-decoration: none;
           padding: 7px;
           font-family: poppins;
-          
+         span{
+           color: #e38f84;
+         } 
         }
       }
     }
@@ -57,9 +59,9 @@ nav {
     display:inline-block;
     padding:12px 28px;
     color:white;
-    border: 1px solid #ee534f;
+    border: 1px solid #e38f84;
     border-radius: 2px;
-    background-color: #ee534f;
+    background-color: #e38f84;
     text-align: center;
     transition: all 0.5s;
     cursor: pointer;
@@ -166,7 +168,7 @@ nav {
    .container3 {
     display: grid;
     grid-template-columns:auto auto auto;
-    background-color: #555555;
+    background-color: #e38f84;
     grid-column-gap: 100px;
    height:50%;
     justify-content: center;
