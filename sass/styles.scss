@@ -138,5 +138,14 @@ nav {
       color: lightgrey;
       border-top: 3px solid;
     }
+   .container2{
+     grid-template-columns: auto auto;
+     display: grid;
+     .image5 {
+      grid-column-start: 1;
+      grid-column-end: 2;
+      width: 200px;
+     }
+   }
   }
 

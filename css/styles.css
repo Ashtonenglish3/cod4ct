@@ -115,5 +115,12 @@ body, html {
     width: 30%;
     color: lightgrey;
     border-top: 3px solid; }
+  .first-section .container2 {
+    grid-template-columns: auto auto;
+    display: grid; }
+    .first-section .container2 .image5 {
+      grid-column-start: 1;
+      grid-column-end: 2;
+      width: 200px; }
 
 /*# sourceMappingURL=styles.css.map */
