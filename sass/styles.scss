@@ -126,7 +126,7 @@ nav {
   
 }
 .container2 {
-  display: inline-block;
+  display: grid;
   grid-template-columns: auto auto;
   height: 50%;
   background-color: white;
