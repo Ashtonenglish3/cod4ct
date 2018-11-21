@@ -44,8 +44,10 @@ nav {
     font-size: 10px; }
 
 .container2 {
-  display: block;
+  display: inline-flex;
   grid-template-columns: auto auto;
+  grid-column-start: 1;
+  grid-column-end: 2;
   padding: 10%;
   background-color: white; }
   .container2 .border {
@@ -80,5 +82,18 @@ nav {
     background-color: #e38f84;
     text-align: center;
     cursor: pointer; }
+  .container2 .body-text2 {
+    display: inline-block;
+    margin-left: 80px; }
+
+.container3 .mapouter {
+  text-align: right;
+  height: 500px;
+  width: 1300px; }
+.container3 .gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 500px;
+  width: 1080px; }
 
 /*# sourceMappingURL=main.css.map */

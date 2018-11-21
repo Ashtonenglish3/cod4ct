@@ -1,3 +1,4 @@
+
 body {
   font-family: 'Poppins', sans-serif;
   margin:0;
@@ -53,8 +54,10 @@ nav {
    }
   }
   .container2 {
-    display: block;
+    display: inline-flex;
     grid-template-columns: auto auto;
+    grid-column-start: 1;
+    grid-column-end: 2; 
     padding:10%;
     background-color: white;
     
@@ -100,4 +103,23 @@ nav {
     text-align: center;
     cursor: pointer;
  }
+ .body-text2{
+   display:inline-block;
+   margin-left:80px;
+ }
+}
+
+.container3{
+  .mapouter {
+    text-align: right;
+    height: 500px;
+    width: 1300px;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 500px;
+    width: 1080px;
+}
 }

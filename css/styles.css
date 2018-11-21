@@ -105,20 +105,21 @@ body, html {
     color: white; }
 
 .container2 {
-  display: grid;
+  display: inline-block;
   grid-template-columns: auto auto;
   height: 50%;
   background-color: white;
   margin: 80px;
   margin-left: 180px; }
   .container2 .button-3 {
+    margin-top: 30px;
     outline: 0;
     display: inline-block;
     padding: 10px 28px;
-    color: grey;
-    border: 1px solid lightgrey;
+    color: white;
+    border: 1px solid #e38f84;
     border-radius: 2px;
-    background-color: transparent;
+    background-color: #e38f84;
     text-align: center;
     cursor: pointer; }
   .container2 .first-text {
