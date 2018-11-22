@@ -24,11 +24,10 @@ nav {
         a {
           color: #666666;
           text-decoration: none;
-          padding: 7px;
+          margin-left: 40px;
+          padding: 14px;
           font-family: poppins;
-          span{
-            color: #e38f84;
-          } 
+         
         }
       }
     }
@@ -205,4 +204,9 @@ footer{
   background-color: #e38f84;
   height: 30px;
   width: 100%;
+
+  p{
+    color: white; 
+    margin-left: 30%;
+  }
 }

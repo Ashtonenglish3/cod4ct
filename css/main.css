@@ -22,10 +22,9 @@ nav {
       nav ul li a {
         color: #666666;
         text-decoration: none;
-        padding: 7px;
+        margin-left: 40px;
+        padding: 14px;
         font-family: poppins; }
-        nav ul li a span {
-          color: #e38f84; }
 
 .container1 {
   display: grid;
@@ -166,5 +165,8 @@ footer {
   background-color: #e38f84;
   height: 30px;
   width: 100%; }
+  footer p {
+    color: white;
+    margin-left: 30%; }
 
 /*# sourceMappingURL=main.css.map */
