@@ -38,10 +38,12 @@ nav {
     float: right;
     padding-left: 290px;
     color: #555555; }
+  .container1 img {
+    width: 10px; }
   .container1 span {
     color: #e38f84; }
   .container1 p {
-    font-size: 10px; }
+    font-size: 13px; }
 
 .container2 {
   display: inline-flex;
@@ -122,12 +124,19 @@ p {
 
 .container4 {
   display: inline-flex;
-  grid-template-columns: auto auto;
+  grid-template-columns: auto auto auto auto;
   grid-column-start: 1;
   grid-column-end: 2;
-  padding: 50px;
-  background-color: white;
-  margin: 5%; }
+  padding: 40px;
+  background-color: white; }
+  .container4 .bottom-body-text {
+    margin-top: 15%;
+    margin-left: 19%;
+    margin-right: 7%;
+    white-space: nowrap;
+    color: #555555; }
+  .container4 .bottom-body-text2 {
+    margin-top: 7%; }
   .container4 img {
     width: 15px;
     border: #e7e7e7 solid 1px;
@@ -136,8 +145,26 @@ p {
     display: inline-flex; }
   .container4 .contact-box {
     display: flex;
-    align-items: center; }
+    align-items: center;
+    margin: 5%; }
     .container4 .contact-box p {
+      font-size: 10px;
       padding: 1px; }
+  .container4 li {
+    padding-bottom: 20px;
+    color: #555555; }
+  .container4 span li {
+    color: #e38f84; }
+  .container4 .bottom-body-text3 {
+    margin-top: 7%;
+    margin-left: 8%; }
+  .container4 .bottom-body-text4 {
+    margin-top: 7%;
+    margin-left: 8%; }
+
+footer {
+  background-color: #e38f84;
+  height: 30px;
+  width: 100%; }
 
 /*# sourceMappingURL=main.css.map */
