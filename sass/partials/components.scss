@@ -125,7 +125,7 @@
   }
    .container2{
     height: 50%;
-    background-color: white;
+    background-color: $secondary-background;
     margin: 80px;
     margin-left:180px;
      .button-3{
@@ -190,9 +190,11 @@
       // height:20%;
       display: grid;
       grid-gap: 0;
+      color: $secondary-background; 
       grid-template-columns: auto auto auto auto;
       // margin-top: 10px;
       // padding: 100px;
+      
      
       img{
         width:50px;
@@ -202,6 +204,10 @@
         // margin-left:45%;
         margin-top:10%;
       }
+      p{
+        color:$primary-background;
+
+      }
       h4{
         text-align:center;
       }
@@ -210,6 +216,12 @@
       }
      
   
+  }
+  .container4{
+    background-color: $secondary-background;
+    height: 90%;
+    margin: 80px;
+    margin-left:180px;
   }
 
 // start contact.html
