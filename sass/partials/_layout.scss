@@ -8,6 +8,16 @@
         grid-template-columns: auto auto;
     }
 }
+.sub-container4{
+    display: grid;
+    
+}
+.sub-content{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 0px;
+    grid-column-gap:0;
+}
 
 // grids styling for contact page
 .section_1{
