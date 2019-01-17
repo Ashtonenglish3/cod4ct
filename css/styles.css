@@ -234,7 +234,7 @@ html {
 
 .container7 {
   background-color: white;
-  height: 40%; }
+  height: 50%; }
   .container7 .fas {
     color: #e38f84;
     font-size: 150%;
@@ -253,6 +253,10 @@ html {
     padding: 12px 126px;
     margin-left: 31%;
     text-align: left; }
+
+.container8 {
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 40%; }
 
 nav {
   overflow: hidden;
