@@ -6,7 +6,7 @@ body {
   margin: 0; }
 
 .section_1 p {
-  font-size: 13px; }
+  font-size: 0.8125rem; }
 
 * {
   scroll-behavior: smooth; }
@@ -28,7 +28,7 @@ nav {
     nav ul li {
       display: inline;
       font-family: "poppins", sans-serif;
-      font-size: 20px; }
+      font-size: 1.25rem; }
       nav ul li a {
         color: #666666;
         text-decoration: none;
@@ -51,7 +51,7 @@ nav {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px; }
+  font-size: 1.0625rem; }
 
 .topnav a:hover {
   background-color: #ddd;
@@ -67,7 +67,7 @@ nav {
 .topnav input[type="text"] {
   padding: 6px;
   margin-top: 8px;
-  font-size: 17px;
+  font-size: 1.0625rem;
   border: none; }
 
 .topnav .search-container button {
@@ -76,7 +76,7 @@ nav {
   margin-top: 8px;
   margin-right: 16px;
   background: #ddd;
-  font-size: 17px;
+  font-size: 1.0625rem;
   border: none;
   cursor: pointer; }
 
@@ -108,26 +108,27 @@ html {
 
 .container2 {
   height: 50%;
-  background-color: #f9f9f9;
   margin: 80px;
   margin-left: 180px; }
   .container2 p {
-    font-size: 14px; }
+    font-size: 0.875rem; }
   .container2 .first-image img {
     width: 45%;
     padding: 5px;
     height: 55%;
     grid-gap: 300px; }
   .container2 .border {
-    width: 10%;
+    width: 7%;
     color: #e38f84;
     border-top: 3px solid;
     opacity: 30%; }
   .container2 .border2 {
     display: grid;
     width: 30%;
-    color: lightgrey;
+    color: #e7e7e7;
     border-top: 3px solid; }
+  .container2 .border-line {
+    display: flex; }
 
 .container3 {
   background-color: black;
@@ -149,11 +150,24 @@ html {
     margin-bottom: 50px; }
 
 .container4 {
+  padding-top: 4%;
   margin-left: 180px; }
   .container4 h2 {
+    color: #555555;
     white-space: nowrap;
-    border-bottom: 2px solid #e38f84;
     width: 5%; }
+  .container4 .border {
+    width: 4%;
+    color: #e38f84;
+    border-top: 3px solid;
+    opacity: 30%; }
+  .container4 .border2 {
+    display: grid;
+    width: 13%;
+    color: #e7e7e7;
+    border-top: 3px solid; }
+  .container4 .border-line {
+    display: flex; }
 
 .sub-container4 {
   margin-left: 120px; }
@@ -167,6 +181,44 @@ html {
     width: 75%;
     padding: 5px;
     height: 97%; }
+
+.container5 {
+  padding-top: 9%;
+  background-color: white;
+  height: 50%;
+  margin-left: 180px; }
+  .container5 .border-line1 {
+    width: 4%;
+    border: 2px solid #e38f84; }
+  .container5 .border-line2 {
+    width: 13%;
+    border: 2px solid #e7e7e7; }
+  .container5 p {
+    margin-right: 25%;
+    color: #666666; }
+  .container5 .subsection {
+    padding-top: 21px; }
+    .container5 .subsection img {
+      width: 98%;
+      height: 224px;
+      margin-left: 1px; }
+    .container5 .subsection .section2 {
+      margin-right: 14px;
+      margin-left: 36px; }
+      .container5 .subsection .section2 h4 {
+        color: #555555; }
+      .container5 .subsection .section2 h5 {
+        color: #888888;
+        margin-top: -12px;
+        padding-bottom: 4%;
+        border-bottom: 1px solid #e7e7e7;
+        width: 91%; }
+      .container5 .subsection .section2 p {
+        font-size: 0.75rem; }
+      .container5 .subsection .section2 .fab {
+        color: #888888;
+        padding: 5px;
+        margin-top: 18px; }
 
 nav {
   overflow: hidden;
@@ -185,7 +237,7 @@ nav {
     nav ul li {
       display: inline;
       font-family: "poppins", sans-serif;
-      font-size: 20px; }
+      font-size: 1.25rem; }
       nav ul li a {
         color: #666666;
         text-decoration: none;
@@ -197,7 +249,7 @@ nav {
   padding: 9%;
   background-color: #e7e7e7; }
   .section_1 .header-text1 {
-    font-size: 20px;
+    font-size: 1.25rem;
     text-align: center;
     float: right;
     padding-left: 290px;
@@ -231,7 +283,7 @@ nav {
     .section_2 form .input-1 {
       border-radius: 4px;
       border: 1px #e7e7e7 solid;
-      padding: 12px 30px; }
+      padding: 12px 29px; }
   .section_2 .contact-box {
     display: flex;
     align-items: center; }
@@ -353,7 +405,7 @@ footer {
   .scrolltop .scroll:hover .fa {
     padding-top: -10px; }
   .scrolltop .scroll .fa {
-    font-size: 30px;
+    font-size: 1.875rem;
     margin-top: -5px;
     margin-left: 1px;
     transition: 0.5s;
@@ -376,6 +428,13 @@ footer {
   grid-template-columns: auto auto;
   grid-gap: 0px;
   margin-left: 58px; }
+
+.border {
+  display: flex; }
+
+.container5 .subsection {
+  display: inline-grid;
+  grid-template-columns: auto auto auto auto; }
 
 .section_1 {
   display: grid;

@@ -19,7 +19,15 @@
     margin-left: 58px;
    
 }
-
+.border{
+    display:flex;
+}
+.container5{
+    .subsection{
+        display: inline-grid;
+        grid-template-columns: auto auto auto auto;
+    }
+}
 // grids styling for contact page
 .section_1{
     display: grid;
