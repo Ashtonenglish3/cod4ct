@@ -28,6 +28,20 @@
         grid-template-columns: auto auto auto auto;
     }
 }
+.container6{
+    .counter-section{
+        display:inline-grid;
+        grid-template-columns:auto auto auto auto;
+    }
+}
+.container7{
+    .sub-container7{
+        display: flex;
+        grid-template-columns: auto auto;
+        padding-left: 42%;
+        padding-top: 7%;
+    }
+}
 // grids styling for contact page
 .section_1{
     display: grid;
