@@ -322,6 +322,51 @@ html {
   background-color:rgba(0, 0, 0, 0.7)  ;
   height: 40%;
 }
+.container9 {
+  padding: 40px;
+  background-color: white;
+  .bottom-body-text {
+    margin-top: 15%;
+    margin-left: 19%;
+    margin-right: 7%;
+    white-space: nowrap;
+    color: #555555;
+  }
+  .bottom-body-text2 {
+    margin-top: 7%;
+  }
+  img {
+    width: 15px;
+    border: #e7e7e7 solid 1px;
+    border-radius: 4px;
+    padding: 3px;
+    display: inline-flex;
+  }
+  .contact-box {
+    display: flex;
+    align-items: center;
+    margin: 5%;
+    p {
+      font-size: 10px;
+      padding: 1px;
+    }
+  }
+  li {
+    padding-bottom: 20px;
+    color: #555555;
+  }
+  span li {
+    color: $main-color;
+  }
+  .bottom-body-text3 {
+    margin-top: 7%;
+    margin-left: 8%;
+  }
+  .bottom-body-text4 {
+    margin-top: 7%;
+    margin-left: 8%;
+  }
+}
 
 
 // start contact.html
