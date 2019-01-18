@@ -48,6 +48,10 @@
     grid-column-start: 1;
     grid-column-end: 2; 
 }
+footer{
+    display: flex;
+    grid-template-columns: auto auto;
+}
 // grids styling for contact page
 .section_1{
     display: grid;

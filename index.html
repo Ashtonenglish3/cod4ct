@@ -24,9 +24,9 @@
                 <li><a href="C:\Users\lifechoices\Desktop\code4ct\contact.html">Contact</a></li>
                 <li><a href="">Portfolio</a></li>
                 <div class="search-container">
-                    <form action="/action_page.php">
-                        <input type="text" placeholder="Search.." name="search">
-                        <button type="submit"><i class="fa fa-search"></i></button>
+                    <form action="">
+            <input type="text" class="input-1" name="search" placeholder="Search..">
+                        <i class="fa fa-search"></i>
                     </form>
                 </div>
             </ul>
@@ -174,21 +174,14 @@
         </div>
     </div>
     <div class="container6">
-        <div class="counter-section">
-            <div class="counter" data-count="4850">
-                <h1>0</h1>
-            </div>
-            <div class="counter" data-count="780">
-                <h1>0</h1>
-            </div>
-            <div class="counter" data-count="3120">
-                <h1>0</h1>
-            </div>
-            <div class="counter" data-count="8765">
-                <h1>0</h1>
-            </div>
-
-        </div>
+            <div class="count">4850+<p>Cups of Coffee</p></div>+
+            <div class="count">780+<p>Cups of Coffee</p></div> +
+            <div class="count">3120+<p>Cups of Coffee</p></div> 
+            <div class="count">8765+<p>Cups of Coffee</p></div>
+            
+            
+            
+            
     </div>
 
     <div class="container7">
@@ -307,9 +300,18 @@
                     <p>copyright 2017 PRIVACY POLICY</p>
                     
                 </div>
+                <div class="icons"> <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-pinterest-p"></i>
+                    <i class="fab fa-google-plus-g"></i>
+                    <i class="fab fa-linkedin-in"></i>
+                    <i class="fab fa-skype"></i></div>
             </footer>
 
-
+     <script
+        src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
 
     <script>
         // When the user scrolls down 20px from the top of the document, show the button
@@ -328,18 +330,30 @@
             document.body.scrollTop = 0;
             document.documentElement.scrollTop = 0;
         }
+$(document).ready(function() {
 
-        $('.count').each(function () {
-            $(this).prop('Counter', 0).animate({
-                Counter: $(this).text()
-            }, {
-                    duration: 4000,
-                    easing: 'swing',
-                    step: function (now) {
-                        $(this).text(Math.ceil(now));
-                    }
-                });
-        });
+  var counters = $(".count");
+  var countersQuantity = counters.length;
+  var counter = [];
+
+  for (i = 0; i < countersQuantity; i++) {
+    counter[i] = parseInt(counters[i].innerHTML);
+  }
+
+  var count = function(start, value, id) {
+    var localStart = start;
+    setInterval(function() {
+      if (localStart < value) {
+        localStart++;
+        counters[id].innerHTML = localStart;
+      }
+    }, 9);
+  }
+
+  for (j = 0; j < countersQuantity; j++) {
+    count(0, counter[j], j);
+  }
+});
     </script>
 </body>
 
