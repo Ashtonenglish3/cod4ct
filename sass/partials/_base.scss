@@ -14,7 +14,7 @@ body {
 // //////////////////////Nav styling starts///////////////////////
 nav {
   overflow: hidden;
-  background-color: $secondary-background;
+  background-color: $nav-color;
   position: fixed;
   top: 0;
   left: 0;
@@ -26,6 +26,7 @@ nav {
     list-style-type: none;
     margin: 0;
     padding: 20px;
+    margin-left: 113px;
     li {
       display: inline;
       font-family: "poppins", sans-serif;
@@ -48,7 +49,7 @@ nav {
 }
 .topnav {
   overflow: hidden;
-  background-color: #e9e9e9;
+
 }
 
 .topnav a {
@@ -442,7 +443,7 @@ html {
 // navbar styling
 nav {
   overflow: hidden;
-  background-color: $secondary-background;
+  background-color: $nav-color;
   position: fixed;
   top: 0;
   left: 0;
@@ -454,6 +455,8 @@ nav {
     list-style-type: none;
     margin: 0;
     padding: 20px;
+    margin-left:10%;
+    margin-top: -6%;
     li {
       display: inline;
       font-family: "poppins", sans-serif;
@@ -621,9 +624,9 @@ p {
   }
 }
 footer {
-  background-color: #e38f84;
-  height: 35px;
-  width: 100%;
+    background-color: #e38f84;
+    height: 41px;
+    width: 100%;
 
   p {
     color: $primary-background;
@@ -631,12 +634,12 @@ footer {
     white-space: nowrap;
   }
   .icons{
-    margin-left: 74%;
-    margin-top: 1%;
+    margin-left: 71%;
+    margin-top: 1.4%;
   }
   .fab{
-    color: $nav-color;
-    padding: 2px;
+    color: white;
+    padding: 3px;
   }
 }
 .scrolltop {
