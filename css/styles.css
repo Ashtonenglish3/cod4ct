@@ -256,7 +256,34 @@ html {
 
 .container8 {
   background-color: rgba(0, 0, 0, 0.7);
-  height: 40%; }
+  height: 176px; }
+  .container8 body {
+    align-items: center;
+    background: #E3E3E3;
+    display: flex;
+    height: 100vh;
+    justify-content: center; }
+@keyframes scroll {
+  0% {
+    transform: translateX(0); }
+  100% {
+    transform: translateX(calc(-250px * 7)); } }
+  .container8 .slider {
+    background: rgba(0, 0, 0, 0.7);
+    box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
+    height: 178px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: 960px; }
+    .container8 .slider .slide-track {
+      animation: scroll 20s linear infinite;
+      display: flex;
+      width: calc(250px * 14);
+      margin-top: 38px; }
+    .container8 .slider .slide {
+      height: 100px;
+      width: 250px; }
 
 .container9 {
   padding: 40px;
