@@ -605,6 +605,17 @@ footer {
     -webkit-transition: 0.5s;
     -o-transition: 0.5s; }
 
+.section_1 {
+  padding: 9%;
+  background-color: #e7e7e7; }
+  .section_1 .banner-text1 {
+    font-size: 1.6rem;
+    text-align: center;
+    float: right;
+    padding-left: 290px;
+    color: #555555;
+    font-weight: 600; }
+
 .container2 {
   display: grid;
   grid-template-columns: auto auto; }

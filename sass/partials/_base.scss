@@ -750,3 +750,16 @@ footer {
     -o-transition: 0.5s;
   }
 }
+//Portfolio page styling
+.section_1 {
+  padding: 9%;
+  background-color: $primary-background;
+  .banner-text1 {
+    font-size: 1.6rem;
+    text-align: center;
+    float: right;
+    padding-left: 290px;
+    color: #555555;
+    font-weight: 600;
+  }
+}
