@@ -616,6 +616,28 @@ footer {
     color: #555555;
     font-weight: 600; }
 
+.container {
+  background-color: white;
+  width: 50%; }
+  .container .banner-text2 h1 {
+    font-size: 1.4rem;
+    text-align: center;
+    margin-top: 73px; }
+  .container p {
+    margin-top: 5%; }
+
+.borderline_1 {
+  display: grid;
+  width: 20%;
+  color: #e7e7e7;
+  border-top: 3px solid; }
+
+.borderline_2 {
+  width: 7%;
+  color: #e38f84;
+  border-top: 3px solid;
+  opacity: 30%; }
+
 .container2 {
   display: grid;
   grid-template-columns: auto auto; }
@@ -674,6 +696,11 @@ footer {
   grid-template-columns: auto auto auto auto;
   grid-column-start: 1;
   grid-column-end: 2; }
+
+.border2 {
+  display: flex;
+  margin-left: 35%;
+  margin-top: 2%; }
 
 .container1 .container1-text .button-1 {
   outline: 0;

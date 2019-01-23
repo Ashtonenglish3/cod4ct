@@ -763,3 +763,31 @@ footer {
     font-weight: 600;
   }
 }
+.container{
+  background-color:white;
+  width:50%;
+  .banner-text2{
+    h1{
+      font-size: 1.4rem;
+      text-align: center;
+      margin-top: 73px;
+      
+    }
+  }
+  p{
+    margin-top:5%;
+  }
+}
+.borderline_1 {
+  display: grid;
+  width: 20%;
+  color: $primary-background;
+  border-top: 3px solid;
+}
+.borderline_2 {
+  width: 7%;
+  color: $main-color;
+  border-top: 3px solid;
+  opacity: 30%;
+}
+
