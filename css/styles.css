@@ -319,6 +319,11 @@ html {
     color: #555555; }
   .container9 .bottom-body-text2 {
     margin-top: 7%; }
+    .container9 .bottom-body-text2 a {
+      color: #555555;
+      text-decoration: none; }
+    .container9 .bottom-body-text2 a:hover {
+      color: #e38f84; }
   .container9 img {
     width: 15px;
     border: #e7e7e7 solid 1px;
@@ -340,9 +345,19 @@ html {
   .container9 .bottom-body-text3 {
     margin-top: 7%;
     margin-left: 8%; }
+    .container9 .bottom-body-text3 a {
+      color: #555555;
+      text-decoration: none; }
+    .container9 .bottom-body-text3 a:hover {
+      color: #e38f84; }
   .container9 .bottom-body-text4 {
     margin-top: 7%;
     margin-left: 8%; }
+    .container9 .bottom-body-text4 a {
+      color: #555555;
+      text-decoration: none; }
+    .container9 .bottom-body-text4 a:hover {
+      color: #e38f84; }
 
 nav {
   overflow: hidden;
@@ -370,6 +385,8 @@ nav {
         margin-left: 40px;
         padding: 14px;
         font-family: poppins; }
+        nav ul li a a:hover {
+          color: red; }
 
 .search-container {
   display: inline-block; }

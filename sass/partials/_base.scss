@@ -39,6 +39,7 @@ nav {
         margin-left: 40px;
         padding: 14px;
         font-family: poppins;
+    
       }
     }
   }
@@ -402,6 +403,14 @@ html {
   }
   .bottom-body-text2 {
     margin-top: 7%;
+    a{
+      color: #555555;
+      text-decoration:none;
+    }
+    a:hover{
+      color:$main-color;
+    }
+    
   }
   img {
     width: 15px;
@@ -429,10 +438,24 @@ html {
   .bottom-body-text3 {
     margin-top: 7%;
     margin-left: 8%;
+    a{
+      color: #555555;
+      text-decoration:none;
+    }
+    a:hover{
+      color:$main-color;
+    }
   }
   .bottom-body-text4 {
     margin-top: 7%;
     margin-left: 8%;
+    a{
+      color: #555555;
+      text-decoration:none;
+    }
+    a:hover{
+      color:$main-color;
+    }
   }
 }
 
@@ -467,6 +490,9 @@ nav {
         margin-left: 40px;
         padding: 14px;
         font-family: poppins;
+        a:hover{
+          color:red;
+        }
       }
     }
   }
