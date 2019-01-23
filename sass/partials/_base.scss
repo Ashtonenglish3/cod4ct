@@ -786,4 +786,20 @@ footer {
   border-top: 3px solid;
   opacity: 30%;
 }
+.image-wrapper{
+  overflow: hidden;
+  z-index:1;
+}
+.image-wrapper img{ 
+   max-width: 100%;
+   overflow: hidden;  
 
+  padding: 7px 0;
+    -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+.image-wrapper img:hover{
+  overflow: hidden;  
+  -webkit-transform: scale(1.08);
+  transform: scale(1.08);
+}

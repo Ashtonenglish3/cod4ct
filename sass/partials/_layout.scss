@@ -74,3 +74,12 @@ footer{
     margin-left: 35%;
     margin-top: 2%;
   }
+  .image-wrapper {
+	
+	
+	-webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+	  
+	
+	}
