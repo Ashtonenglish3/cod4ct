@@ -37,6 +37,8 @@ nav {
         margin-left: 40px;
         padding: 14px;
         font-family: poppins; }
+        nav ul li a nav ul li a:hover {
+          color: red; }
 
 .search-container {
   display: inline-block; }
@@ -358,35 +360,6 @@ html {
       text-decoration: none; }
     .container9 .bottom-body-text4 a:hover {
       color: #e38f84; }
-
-nav {
-  overflow: hidden;
-  background-color: white;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 99999; }
-  nav ul {
-    text-align: center;
-    list-style-type: none;
-    list-style-type: none;
-    margin: 0;
-    padding: 20px;
-    margin-left: 10%;
-    margin-top: -8%; }
-    nav ul li {
-      display: inline;
-      font-family: "poppins", sans-serif;
-      font-size: 1.25rem; }
-      nav ul li a {
-        color: #666666;
-        text-decoration: none;
-        margin-left: 40px;
-        padding: 14px;
-        font-family: poppins; }
-        nav ul li a a:hover {
-          color: red; }
 
 .search-container {
   display: inline-block; }
@@ -714,7 +687,7 @@ footer {
   grid-column-start: 1;
   grid-column-end: 2; }
 
-.border2 {
+.border_2 {
   display: flex;
   margin-left: 35%;
   margin-top: 2%; }
