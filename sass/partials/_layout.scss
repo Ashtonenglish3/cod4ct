@@ -75,11 +75,24 @@ footer{
     margin-top: 2%;
   }
   .gal {
-	
+    padding-right:0;
+    padding-left:0;
+    margin-right:0;
+    margin-left:0;
 	
 	-webkit-column-count: 3; /* Chrome, Safari, Opera */
     -moz-column-count: 3; /* Firefox */
     column-count: 3;
 	  
 	
-	}
+    }
+.container10{
+    display:grid;
+.con10{
+    display: inline-grid;
+    grid-template-columns:auto auto;
+    .border-line{
+        display:flex;
+    }
+}
+}

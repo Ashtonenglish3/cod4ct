@@ -786,11 +786,41 @@ footer {
   border-top: 3px solid;
   opacity: 30%;
 }
-
+.row .no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+ .col [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
 .gal img{ 
   width: 100%; 
   padding: 7px 0;
 }
 .gal img:hover{
    transform: scale(1.2);
+}
+
+.con10{
+  margin-top: 7%;
+  margin-left: 13%;
+  .text{
+    margin-right: 31px;
+  }
+  img{
+    width: 67%;
+  }
+  .border {
+    width: 7%;
+    color: $main-color;
+    border-top: 4px solid;
+    opacity: 30%;
+  }
+  .border2 {
+    display: grid;
+    width: 50%;
+    color: $primary-background;
+    border-top: 4px solid;
+  }
 }
