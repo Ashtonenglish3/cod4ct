@@ -253,6 +253,10 @@ html {
     float: left;
     border-top: 4px solid #e38f84;
     margin: 129px; }
+  .container6 .counter-text {
+    color: white;
+    margin-left: 25%;
+    margin-top: -43%; }
 
 .container7 {
   background-color: white;
@@ -692,7 +696,7 @@ footer {
   display: inline-grid;
   grid-template-columns: auto auto auto auto; }
 
-.container6 .counter-section {
+.container6 {
   display: inline-grid;
   grid-template-columns: auto auto auto auto; }
 
