@@ -673,6 +673,14 @@ footer {
   .container11 .sub-con11 .sub-con11-text h4 {
     color: #e38f84; }
 
+.heading {
+  margin-top: 3%;
+  text-align: center; }
+
+.container .col {
+  background-color: #f9f9f9;
+  padding: 7%; }
+
 .container2 {
   display: grid;
   grid-template-columns: auto auto; }

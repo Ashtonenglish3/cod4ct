@@ -849,3 +849,13 @@ footer {
     }
   }
 }
+.heading{
+  margin-top:3%;
+  text-align:center;
+}
+.container{
+  .col{
+    background-color:$secondary-background;
+    padding: 7%;
+  }
+}
