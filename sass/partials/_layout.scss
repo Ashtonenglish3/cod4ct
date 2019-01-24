@@ -96,3 +96,16 @@ footer{
     }
 }
 }
+.container11{
+    display:grid;
+    background-color:$tertiary-background;
+    height:50%;
+    margin-top:5%;
+    .sub-con11{
+        display: inline-grid;
+        grid-template-columns:auto auto; 
+    }
+    .border-line{
+        display:flex;
+    }
+}

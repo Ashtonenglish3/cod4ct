@@ -656,7 +656,30 @@ footer {
     opacity: 30%; }
   .con10 .border2 {
     display: grid;
-    width: 50%;
+    width: 24%;
+    color: #e7e7e7;
+    border-top: 4px solid; }
+
+.container11 .sub-con11 img {
+  width: 48%;
+  height: 361px; }
+.container11 .sub-con11 .sub-con11-text {
+  margin-left: -256%; }
+  .container11 .sub-con11 .sub-con11-text h3 {
+    margin-top: 5%;
+    color: #555555; }
+  .container11 .sub-con11 .sub-con11-text h4 {
+    color: #e38f84; }
+  .container11 .sub-con11 .sub-con11-text p {
+    padding: 1px; }
+  .container11 .sub-con11 .sub-con11-text .border {
+    width: 4%;
+    color: #e38f84;
+    border-top: 4px solid;
+    opacity: 30%; }
+  .container11 .sub-con11 .sub-con11-text .border2 {
+    display: grid;
+    width: 14%;
     color: #e7e7e7;
     border-top: 4px solid; }
 
@@ -742,6 +765,17 @@ footer {
     grid-template-columns: auto auto; }
     .container10 .con10 .border-line {
       display: flex; }
+
+.container11 {
+  display: grid;
+  background-color: #f6f6f6;
+  height: 50%;
+  margin-top: 5%; }
+  .container11 .sub-con11 {
+    display: inline-grid;
+    grid-template-columns: auto auto; }
+  .container11 .border-line {
+    display: flex; }
 
 .container1 .container1-text .button-1 {
   outline: 0;
@@ -887,6 +921,23 @@ footer {
   text-align: center;
   transition: all 0.5s;
   cursor: pointer; }
+.con10 .button-3 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  color: #e7e7e7; }
+.con10 .button-3 :hover:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 1;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+  color: white; }
+.con10 .button-3:hover span {
+  padding-right: 25px;
+  color: #f9f9f9; }
 
 @media (max-width: 500px) {
   .gal {

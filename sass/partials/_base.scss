@@ -819,8 +819,42 @@ footer {
   }
   .border2 {
     display: grid;
-    width: 50%;
+    width: 24%;
     color: $primary-background;
     border-top: 4px solid;
+  }
+}
+.container11{
+  .sub-con11{
+    img{
+      width: 48%;
+    height: 361px;
+    
+    }
+    .sub-con11-text{
+      margin-left: -256%;
+      h3{
+        margin-top: 5%;
+        color:$text-color2;
+      }
+      h4{
+        color:$main-color;
+      }
+      p{
+        padding:1px;
+      }
+      .border {
+        width: 4%;
+        color: $main-color;
+        border-top: 4px solid;
+        opacity: 30%;
+      }
+      .border2 {
+        display: grid;
+        width: 14%;
+        color: $primary-background;
+        border-top: 4px solid;
+      }
+    }
   }
 }
