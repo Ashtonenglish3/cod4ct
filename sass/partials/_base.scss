@@ -1,5 +1,6 @@
-body {
+body html {
   margin: 0;
+  font-family: "Poppins";
 }
 
 .section_1 {
@@ -8,6 +9,7 @@ body {
   }
 }
 * {
+  font-family: Poppins;
   scroll-behavior: smooth;
 }
 
@@ -120,7 +122,7 @@ body,
 html {
   height: 100%;
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Poppins;
 }
 
 .container1 {

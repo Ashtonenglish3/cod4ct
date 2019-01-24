@@ -2,13 +2,15 @@
 body {
   font-family: 'Poppins', sans-serif; }
 
-body {
-  margin: 0; }
+body html {
+  margin: 0;
+  font-family: "Poppins"; }
 
 .section_1 p {
   font-size: 0.8125rem; }
 
 * {
+  font-family: Poppins;
   scroll-behavior: smooth; }
 
 nav {
@@ -103,7 +105,7 @@ body,
 html {
   height: 100%;
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif; }
+  font-family: Poppins; }
 
 .container1 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/home.jpg");
