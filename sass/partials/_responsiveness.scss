@@ -11,3 +11,60 @@ column-count: 1;
 }
     
 }
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    nav {
+        overflow: hidden;
+        background-color: $nav-color;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 99999;
+        img{
+            width: 41%;
+            margin-left: 28%;
+        }
+        ul {
+            text-align: center;
+            list-style-type: none;
+            list-style-type: none;
+            margin: 0;
+            padding: 19px;
+            margin-left: -8%;
+            margin-top: -1%;
+          li {
+            display: grid;
+            font-family: "poppins", sans-serif;
+            font-size: 3.25rem;
+      
+            a {
+              color: #666666;
+              text-decoration: none;
+              margin-left: 40px;
+              padding: 14px;
+              font-family: poppins;
+              a:hover{
+               color:red;
+             }
+
+            }
+          }
+        }
+      }
+      form .input-1 {
+        border-radius: 4px;
+        border: 4px #e7e7e7 solid;
+        padding: 23px 155px;
+        font-size: 1.8rem;
+    }
+    .fa {
+        color: #e38f84;
+        padding: 39px;
+        background: transparent;
+        border: 2px solid lightgrey;
+        margin-left: -8px;
+      }
+    }
+    

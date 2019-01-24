@@ -39,7 +39,7 @@ nav {
         margin-left: 40px;
         padding: 14px;
         font-family: poppins; }
-        nav ul li a nav ul li a:hover {
+        nav ul li a a:hover {
           color: red; }
 
 .search-container {
@@ -63,14 +63,6 @@ form {
     border-radius: 4px;
     border: 1px #e7e7e7 solid;
     padding: 10px 27px; }
-
-.topnav a:hover {
-  background-color: #ddd;
-  color: black; }
-
-.topnav a.active {
-  background-color: #2196f3;
-  color: white; }
 
 .topnav .search-container {
   float: left; }
@@ -147,6 +139,9 @@ html {
     border-top: 3px solid; }
   .container2 .border-line {
     display: flex; }
+  .container2 .button-3 a {
+    color: #666666;
+    text-decoration: none; }
 
 .container3 {
   background-color: black;
@@ -384,14 +379,6 @@ form {
     border-radius: 4px;
     border: 1px #e7e7e7 solid;
     padding: 10px 27px; }
-
-.topnav a:hover {
-  background-color: #ddd;
-  color: black; }
-
-.topnav a.active {
-  background-color: #2196f3;
-  color: white; }
 
 .topnav .search-container {
   float: left; }
@@ -945,5 +932,51 @@ footer {
     -moz-column-count: 1;
     /* Firefox */
     column-count: 1; } }
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  nav {
+    overflow: hidden;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99999; }
+    nav img {
+      width: 41%;
+      margin-left: 28%; }
+    nav ul {
+      text-align: center;
+      list-style-type: none;
+      list-style-type: none;
+      margin: 0;
+      padding: 19px;
+      margin-left: -8%;
+      margin-top: -1%; }
+      nav ul li {
+        display: grid;
+        font-family: "poppins", sans-serif;
+        font-size: 3.25rem; }
+        nav ul li a {
+          color: #666666;
+          text-decoration: none;
+          margin-left: 40px;
+          padding: 14px;
+          font-family: poppins; }
+          nav ul li a a:hover {
+            color: red; }
+
+  form .input-1 {
+    border-radius: 4px;
+    border: 4px #e7e7e7 solid;
+    padding: 23px 155px;
+    font-size: 1.8rem; }
+
+  .fa {
+    color: #e38f84;
+    padding: 39px;
+    background: transparent;
+    border: 2px solid lightgrey;
+    margin-left: -8px; } }
 
 /*# sourceMappingURL=styles.css.map */
