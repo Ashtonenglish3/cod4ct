@@ -241,7 +241,7 @@ html {
   .container6 h2 {
     color: white; }
   .container6 .count {
-    width: 50px;
+    width: 34px;
     height: 60px;
     display: flex;
     justify-content: center;
@@ -451,7 +451,7 @@ form {
     .section_2 form .input-1 {
       border-radius: 4px;
       border: 1px #e7e7e7 solid;
-      padding: 12px 29px; }
+      padding: 12px 24px; }
   .section_2 .contact-box {
     display: flex;
     align-items: center; }
