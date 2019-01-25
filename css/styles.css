@@ -657,10 +657,10 @@ footer {
     border-top: 4px solid; }
 
 .container11 .sub-con11 img {
-  width: 48%;
+  width: 41%;
   height: 361px; }
 .container11 .sub-con11 .sub-con11-text {
-  margin-left: -256%; }
+  margin-left: -295%; }
   .container11 .sub-con11 .sub-con11-text .border {
     width: 7%;
     color: #e38f84;
@@ -683,6 +683,9 @@ footer {
 .container .col {
   background-color: #f9f9f9;
   padding: 7%; }
+
+.navbar a {
+  color: #666666; }
 
 .container2 {
   display: grid;
