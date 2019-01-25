@@ -12,8 +12,12 @@ column-count: 1;
     
 }
 
+//Home Page
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    body{
+      width: 416%;
+    }
     nav {
         overflow: hidden;
         background-color: $nav-color;
@@ -23,8 +27,8 @@ column-count: 1;
         width: 100%;
         z-index: 99999;
         img{
-            width: 41%;
-            margin-left: 28%;
+          width: 21%;
+          margin-left: 37%;
         }
         ul {
             text-align: center;
@@ -37,7 +41,7 @@ column-count: 1;
           li {
             display: grid;
             font-family: "poppins", sans-serif;
-            font-size: 3.25rem;
+            font-size: 2.25rem;
       
             a {
               color: #666666;
@@ -66,5 +70,127 @@ column-count: 1;
         border: 2px solid lightgrey;
         margin-left: -8px;
       }
+      .container1 {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+          url("../img/home.jpg");
+          height: 237%;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+        .container1-text {
+          text-align: center;
+          position: absolute;
+          font-size: 1.5625rem;
+          top: 168%;
+          left: 211%;
+          transform: translate(-50%, -50%);
+          color: $secondary-background;
+          white-space: pre;
+        }
+        span {
+          font-size: 1.61rem;
+        }
+        }
+        .container2 {
+          height: 50%;
+        
+          margin: 80px;
+          margin-left: 180px;
+          
+        
+          p {
+            font-size: 2.875rem;
+          }
+        
+          .first-image img {
+            width: 47%;
+            padding: 10px;
+            height: 152%;
+            grid-gap: 322px;
+          }
+          .border {
+            width: 7%;
+            color: $main-color;
+            border-top: 3px solid;
+            opacity: 30%;
+          }
+          .border2 {
+            display: grid;
+            width: 30%;
+            color: $primary-background;
+            border-top: 3px solid;
+          }
+          .border-line{
+            display:flex;
+          }
+          .button-3{
+            a{
+              color:$link-color;
+              text-decoration:none;
+            }
+          }
+        }
+        .container2 {
+          display: inline-block;
+          .first-text{
+              display: inline-block;
+              grid-template-columns: auto auto;
+              font-size: 3rem;
+          }
+      }
+      .container2 .button-3 {
+        outline: 0;
+        display: inline-block;
+        padding: 55px 146px;
+        color: #f9f9f9;
+        border: 1px solid #e38f84;
+        border-radius: 2px;
+        background-color: #e38f84;
+        text-align: center;
+        transition: all 0.5s;
+        cursor: pointer;
+    }
+    .container2 .button-3 a {
+      color: #666666;
+      text-decoration: none;
+      font-size: 2rem;
+  }
+  .container3 {
+    background-color: $background;
+    // height:20%;
+    display: grid;
+    grid-gap: 0;
+    color: $secondary-background;
+    grid-template-columns: auto;
+    // margin-top: 10px;
+    padding: 50px;
+  
+    img {
+      width: 159px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 10%;
+    }
+    p {
+      color: $primary-background;
+      font-size: 2rem;
+    }
+    h4 {
+      text-align: center;
+      font-size: 3rem;
+    }
+    .con3 {
+      margin-bottom: 52px;
+      margin-top: -8%;
+  
+    }
+  }
+  
     }
     
+  
+    /* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  /* Styles */
+  }
+  

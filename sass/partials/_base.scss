@@ -288,6 +288,7 @@ html {
         color: $sub-head;
         padding:5px;
         margin-top: 18px;
+        
       }
     }
   }
@@ -402,10 +403,10 @@ html {
   padding: 40px;
   background-color: white;
   .bottom-body-text {
-    margin-top: 15%;
+    margin-top: 3%;
     margin-left: 19%;
     margin-right: 7%;
-    white-space: nowrap;
+    /* white-space: nowrap; */
     color: #555555;
   }
   .bottom-body-text2 {
@@ -433,6 +434,9 @@ html {
     p {
       font-size: 10px;
       padding: 1px;
+    }
+    img:hover{
+      color:red;
     }
   }
   li {
