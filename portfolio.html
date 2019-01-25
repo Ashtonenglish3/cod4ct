@@ -22,7 +22,7 @@
                     <img src="img/logo.jpg" alt="">
                         <ul>
                             <li><a href="index.html"><span>Home</span></a></li>
-                            <li><a href="course.html">Course</a></li>
+                            <li><a href="courses.html">Course</a></li>
                             <li><a href="about.html">About</a></li>
                             <li><a href="contact.html">Contact</a></li>
                             <li><a href="portfolio.html">Portfolio</a></li>
@@ -57,12 +57,12 @@
                 erat. Sed tempor, sapien id imperdiet facilisis. </p>
         </div>
     </div>
-    <div class="col-md-12">
-        <div class="row .no-gutters">
+    <div class="col-md-12 ">
+        <div class="row m-0">
 
             <div class="gal">
 
-                <img src="img/portfolio1.jpg" alt="">
+                    <a href="http://www.keenthemes.com/preview/metronic/theme/assets/global/plugins/jcrop/demos/demo_files/image1.jpg" rel="prettyPhoto"><img src="http://www.keenthemes.com/preview/metronic/theme/assets/global/plugins/jcrop/demos/demo_files/image1.jpg" alt="" /></a>
 
                 <img src="img/portfolio2.JPG" alt="">
 
@@ -198,6 +198,9 @@
             <i class="fab fa-skype"></i></div>
     </footer>
     <script>
+          $(document).ready(function(){
+    $("a[rel^='prettyPhoto']").prettyPhoto();
+  });
             // When the user scrolls down 20px from the top of the document, show the button
             window.onscroll = function () { scrollFunction() };
         
