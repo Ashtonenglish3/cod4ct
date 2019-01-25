@@ -629,8 +629,11 @@ footer {
     padding-left: 0; }
 
 .gal img {
-  width: 100%;
-  padding: 7px 0; }
+  width: 109%;
+  /* padding: 0px 0%; */
+  /* margin-right: -12%; */
+  /* margin-left: 1%; */
+  margin: 0% 1%; }
 
 .gal img:hover {
   transform: scale(1.2); }
