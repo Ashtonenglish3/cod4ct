@@ -141,13 +141,18 @@ html {
 
   margin: 80px;
   margin-left: 180px;
-
+  .button-3 {
+    a {
+      text-decoration: none;
+    color: white;
+    }
+  }
   p {
     font-size: 0.875rem;
   }
 
   .first-image img {
-    width: 45%;
+    width: 98%;
     padding: 5px;
     height: 55%;
     grid-gap: 300px;
@@ -167,12 +172,7 @@ html {
   .border-line {
     display: flex;
   }
-  .button-3 {
-    a {
-      color: $link-color;
-      text-decoration: none;
-    }
-  }
+
 }
 .container3 {
   background-color: $background;
@@ -231,10 +231,11 @@ html {
   margin-left: 120px;
   .first-image img {
     margin-left: 3px;
-    width: 49%;
+    width: 95%;
     margin-right: 1px;
     padding: 0;
-    height: 54%;
+    height: 48%;
+    margin-bottom: 7px;
   }
   .second-image img {
     width: 81%;
@@ -244,7 +245,7 @@ html {
 }
 
 .container5 {
-  padding-top: 9%;
+
   background-color: white;
   height: 63%;
   margin-left: 180px;
@@ -696,13 +697,14 @@ footer {
   width: 100%;
 
   p {
-    color: $primary-background;
-    margin-left: 30%;
+    color: #e7e7e7;
+    margin-left: 1%;
     white-space: nowrap;
   }
   .icons {
     margin-left: 71%;
-    margin-top: 1.4%;
+    margin-top: 0.4%;
+
   }
   .fab {
     color: white;
@@ -803,10 +805,11 @@ footer {
   /* margin-right: -12%; */
   /* margin-left: 1%; */
   margin: 0% 1%;
-  overflow: hidden;
+  
   transition: transform 0.3s ease-in-out;
 }
 .gal img:hover {
+  overflow: hidden;
   transform: scale(1.2);
 }
 

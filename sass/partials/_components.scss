@@ -23,7 +23,7 @@
   position: absolute;
   opacity: 1;
   top: 0;
-  right: -20px;
+  right: 5%;
   transition: 0.5s;
   color: white;
 }
@@ -55,7 +55,7 @@
   position: absolute;
   opacity: 1;
   top: 0;
-  right: -20px;
+  right: 5%;
   transition: 0.5s;
   color: $secondary-background;
 }
@@ -83,7 +83,10 @@
   display: inline-block;
   position: relative;
   transition: 0.5s;
-  color: $primary-background;
+ 
+  color: white;
+    text-decoration: none;
+  
 }
 .button-3 :hover:after {
   content: "\00bb";
@@ -145,7 +148,7 @@
     position: absolute;
     opacity: 1;
     top: 0;
-    right: -20px;
+    right:5%;
     transition: 0.5s;
     color: white;
   }
@@ -180,7 +183,7 @@
       position: absolute;
       opacity: 1;
       top: 0;
-      right: -20px;
+      right: 5%;
       transition: 0.5s;
       color: white;
     }
@@ -188,5 +191,6 @@
     .button-3:hover span {
       padding-right: 25px;
       color: $secondary-background;
+      
     }
   }

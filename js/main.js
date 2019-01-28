@@ -62,15 +62,13 @@ $(document).ready(function() {
 
 
 
-///////////////////////////
-window.onload = function onLoad() {
-  var progressBar = 
-    new ProgressBar.Circle('#bar', {
-      color: 'red',
-      strokeWidth: 10,
-      duration: 2000, // milliseconds
-      easing: 'easeInOut'
-    });
-
-  progressBar.animate(0.63); // percent
-};
+///////////////////////////PRETTY PHOTO////////////////////////////
+$(document).ready(function () {
+  $("a[rel^='prettyPhoto']").prettyPhoto();
+     $(".gal").owlCarousel({
+         autoPlay: 3000, //Set AutoPlay to 3 seconds
+         items: 4,
+         itemsDesktop: [1199, 3],
+         itemsDesktopSmall: [979, 3]
+     });
+ });
