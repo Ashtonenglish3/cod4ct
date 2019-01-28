@@ -233,7 +233,8 @@ html {
         border-bottom: 1px solid #e7e7e7;
         width: 91%; }
       .container5 .subsection .section2 p {
-        font-size: 0.75rem; }
+        font-size: 0.75rem;
+        margin-bottom: -4%; }
       .container5 .subsection .section2 .fab {
         color: #888888;
         padding: 5px;
@@ -293,7 +294,7 @@ html {
   height: 176px; }
   .container8 body {
     align-items: center;
-    background: #E3E3E3;
+    background: #e3e3e3;
     display: flex;
     height: 100vh;
     justify-content: center; }
@@ -698,6 +699,24 @@ footer {
 
 .navbar a {
   color: #666666; }
+
+.box {
+  padding: 114px;
+  display: inline-block; }
+
+.progress {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .progress > .inner {
+    position: absolute;
+    color: white; }
+  .progress > svg {
+    height: 100%;
+    display: block; }
 
 .container2 {
   display: grid;
