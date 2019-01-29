@@ -12,3 +12,13 @@
 
 ## Brief
 Company: Non-Profit Organisation
+
+# Frameworks Used:
+
+```
+-Bulma
+-Bootstrap
+-Font Awesome
+
+```
+

@@ -1,3 +1,4 @@
+// margining of body
 body html {
   margin: 0;
   font-family: "Poppins";
@@ -8,6 +9,7 @@ body html {
     font-size: 0.8125rem;
   }
 }
+// effects for entire page
 * {
   font-family: Poppins;
   scroll-behavior: smooth;
@@ -79,6 +81,7 @@ form {
 .topnav .search-container {
   float: left;
 }
+// icon styling
 .fa {
   color: #e38f84;
   padding: 9px;
@@ -141,6 +144,7 @@ html {
 
   margin: 80px;
   margin-left: 180px;
+  // button styling
   .button-3 {
     a {
       text-decoration: none;
@@ -311,6 +315,7 @@ html {
   h2 {
     color: white;
   }
+  // counter styling
   .count {
     width: 34px;
     height: 60px;
@@ -331,6 +336,7 @@ html {
     margin-top: -43%;
   }
 }
+// container 7
 .container7 {
   background-color: $nav-color;
   height: 50%;
@@ -511,6 +517,7 @@ form {
 .topnav .search-container {
   float: left;
 }
+// styling of font awesome icons
 .fa {
   color: #e38f84;
   padding: 9px;
@@ -569,7 +576,7 @@ form {
     padding: 3px;
     display: inline-flex;
   }
-
+// border top line
   .border {
     width: 7%;
     color: #e38f84;
@@ -691,6 +698,7 @@ p {
     margin-left: 8%;
   }
 }
+// footer
 footer {
   background-color: #e38f84;
   height: 41px;
@@ -808,6 +816,7 @@ footer {
   
   transition: transform 0.3s ease-in-out;
 }
+// hovering effect of portfolio images
 .gal img:hover {
   overflow: hidden;
   transform: scale(1.2);
@@ -904,3 +913,9 @@ footer {
     }
   }
 }
+// greyness of map
+.map{
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
