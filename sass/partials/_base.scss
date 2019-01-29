@@ -324,7 +324,7 @@ html {
     align-items: center;
     color: white;
     font-weight: bold;
-    font-size: 34px;
+    font-size: 2.125rem;
     font-family: verdana;
     float: left;
     border-top: 4px solid $main-color;
@@ -447,7 +447,7 @@ html {
     align-items: center;
     margin: 5%;
     p {
-      font-size: 10px;
+      font-size: 0.625rem;
       padding: 1px;
     }
     img:hover {
@@ -678,7 +678,7 @@ p {
     align-items: center;
     margin: 5%;
     p {
-      font-size: 10px;
+      font-size: 0.625rem;
       padding: 1px;
     }
   }
@@ -882,6 +882,7 @@ footer {
   .col {
     background-color: $secondary-background;
     padding: 7%;
+    border: 3px solid $main-color;
   }
 }
 .navbar {
