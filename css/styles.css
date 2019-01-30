@@ -1041,7 +1041,34 @@ footer {
       transform: translate(-50%, -50%);
       color: #f9f9f9; }
     .container1 span {
-      font-size: 0.9375rem; } }
+      font-size: 0.9375rem; }
+
+  .container2 {
+    height: 50%;
+    margin: 80px;
+    margin-left: 180px; }
+    .container2 .button-3 a {
+      text-decoration: none;
+      color: white; }
+    .container2 p {
+      font-size: 0.875rem; }
+    .container2 .first-image img {
+      width: 98%;
+      padding: 5px;
+      height: 55%;
+      grid-gap: 300px; }
+    .container2 .border {
+      width: 7%;
+      color: #e38f84;
+      border-top: 3px solid;
+      opacity: 30%; }
+    .container2 .border2 {
+      display: grid;
+      width: 30%;
+      color: #e7e7e7;
+      border-top: 3px solid; }
+    .container2 .border-line {
+      display: flex; } }
 /* 
   ##Device = Laptops, Desktops
   ##Screen = B/w 1025px to 1280px
@@ -1099,7 +1126,34 @@ footer {
       transform: translate(-50%, -50%);
       color: #f9f9f9; }
     .container1 span {
-      font-size: 0.9375rem; } }
+      font-size: 0.9375rem; }
+
+  .container2 {
+    height: 50%;
+    margin: 80px;
+    margin-left: 180px; }
+    .container2 .button-3 a {
+      text-decoration: none;
+      color: white; }
+    .container2 p {
+      font-size: 0.875rem; }
+    .container2 .first-image img {
+      width: 98%;
+      padding: 5px;
+      height: 55%;
+      grid-gap: 300px; }
+    .container2 .border {
+      width: 7%;
+      color: #e38f84;
+      border-top: 3px solid;
+      opacity: 30%; }
+    .container2 .border2 {
+      display: grid;
+      width: 30%;
+      color: #e7e7e7;
+      border-top: 3px solid; }
+    .container2 .border-line {
+      display: flex; } }
 /* 
   ##Device = Tablets, Ipads (portrait)
   ##Screen = B/w 768px to 1024px
@@ -1158,7 +1212,11 @@ footer {
       transform: translate(-50%, -50%);
       color: #f9f9f9; }
     .container1 span {
-      font-size: 0.9375rem; } }
+      font-size: 0.9375rem; }
+
+  .container2 {
+    display: grid;
+    grid-template-columns: auto; } }
 /* 
   ##Device = Tablets, Ipads (landscape)
   ##Screen = B/w 768px to 1024px
@@ -1216,7 +1274,11 @@ footer {
       transform: translate(-50%, -50%);
       color: #f9f9f9; }
     .container1 span {
-      font-size: 0.9375rem; } }
+      font-size: 0.9375rem; }
+
+  .container2 {
+    display: grid;
+    grid-template-columns: auto; } }
 /* 
   ##Device = Low Resolution Tablets, Mobiles (Landscape)
   ##Screen = B/w 481px to 767px
@@ -1275,7 +1337,11 @@ footer {
       transform: translate(-50%, -50%);
       color: #f9f9f9; }
     .container1 span {
-      font-size: 0.9375rem; } }
+      font-size: 0.9375rem; }
+
+  .container2 {
+    display: grid;
+    grid-template-columns: auto; } }
 /* 
   ##Device = Most of the Smartphones Mobiles (Portrait)
   ##Screen = B/w 320px to 479px
@@ -1334,6 +1400,34 @@ footer {
       transform: translate(-50%, -50%);
       color: #f9f9f9; }
     .container1 span {
-      font-size: 0.9375rem; } }
+      font-size: 0.9375rem; }
+
+  .container2 {
+    display: grid;
+    grid-template-columns: auto; }
+    .container2 .first-text {
+      display: inline-block;
+      grid-template-columns: auto auto;
+      font-size: 2rem;
+      margin-left: -22%; }
+
+  .first-image {
+    display: grid;
+    grid-template-columns: auto; }
+
+  .container2 .first-image img {
+    width: 98%;
+    padding: 5px;
+    /* height: 55%; */
+    grid-gap: 300px; }
+
+  .container3 {
+    background-color: black;
+    display: grid;
+    grid-gap: 0;
+    color: #f9f9f9;
+    grid-template-columns: auto auto auto auto;
+    padding: 50px;
+    margin-top: 133%; } }
 
 /*# sourceMappingURL=styles.css.map */
