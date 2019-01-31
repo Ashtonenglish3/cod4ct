@@ -16,42 +16,88 @@ body html {
 }
 
 // //////////////////////Nav styling starts///////////////////////
-nav {
-  overflow: hidden;
-  background-color: $nav-color;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 99999;
-  a:hover {
-    color: #e38f84;
-  }
-  ul {
-    text-align: center;
-    list-style-type: none;
-    list-style-type: none;
-    margin: 0;
-    padding: 20px;
-    margin-left: 21%;
-    margin-top: -7%;
-    li {
-      display: inline;
-      font-family: "poppins", sans-serif;
-      font-size: 1.25rem;
+// nav {
+//   overflow: hidden;
+//   background-color: $nav-color;
+//   position: fixed;
+//   top: 0;
+//   left: 0;
+//   width: 100%;
+//   z-index: 99999;
+//   .icon {
+//     display: none;
+//   }
+//   a:hover {
+//     color: #e38f84;
+//   }
+//   ul {
+//     text-align: center;
+//     list-style-type: none;
+//     list-style-type: none;
+//     margin: 0;
+//     padding: 20px;
+//     margin-left: 21%;
+//     margin-top: -7%;
+//     li {
+//       display: inline;
+//       font-family: "poppins", sans-serif;
+//       font-size: 1.25rem;
 
-      a {
-        color: #666666;
-        text-decoration: none;
-        margin-left: 40px;
-        padding: 14px;
-        font-family: poppins;
-        a:hover {
-          color: #e38f84;
-        }
-      }
+//       a {
+//         color: #666666;
+//         text-decoration: none;
+//         margin-left: 40px;
+//         padding: 14px;
+//         font-family: poppins;
+//         a:hover {
+//           color: #e38f84;
+//         }
+        
+//       }
+//     }
+//   }
+// }
+.topnav {
+  position: fixed;
+  z-index: 500;
+  width: 100%;
+  background-color: white;
+  form {
+    margin-top: -9px;
+    .input-1 {
+      border-radius: 4px;
+      border: 1px #e7e7e7 solid;
+      padding: 10px 27px;
     }
   }
+ 
+}
+.topnav input[type="text"] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 1.0625rem;
+  border: 1px solid lightgray;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: $link-color;
+  text-align: center;
+  padding: 13px 37px;
+  text-decoration: none;
+  font-size: 1.0625rem;
+  margin-top: 2%;
+}
+
+.topnav a:hover {
+ 
+  color:$main-color;
+}
+
+
+
+.topnav  .icon {
+  display: none;
 }
 .search-container {
   display: inline-block;
@@ -63,14 +109,14 @@ nav {
 .topnav a {
   float: left;
   display: block;
-  color: black;
+  color: $link-color;
   text-align: center;
-  padding: 14px 16px;
+  padding: 13px 37px;
   text-decoration: none;
   font-size: 1.0625rem;
 }
 form {
-  margin-top: 10px;
+  margin-top: -9px;
   .input-1 {
     border-radius: 4px;
     border: 1px #e7e7e7 solid;
@@ -90,12 +136,7 @@ form {
 
   margin-left: -5px;
 }
-.topnav input[type="text"] {
-  padding: 6px;
-  margin-top: 8px;
-  font-size: 1.0625rem;
-  border: none;
-}
+
 
 .topnav .search-container button {
   float: right;
@@ -496,15 +537,15 @@ html {
   overflow: hidden;
 }
 
-.topnav a {
-  float: left;
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 1.0625rem;
-}
+// .topnav a {
+//   float: left;
+//   display: block;
+//   color: black;
+//   text-align: center;
+//   padding: 14px 16px;
+//   text-decoration: none;
+//   font-size: 1.0625rem;
+// }
 form {
   margin-top: 10px;
   .input-1 {

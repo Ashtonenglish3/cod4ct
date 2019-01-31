@@ -13,36 +13,39 @@ body html {
   font-family: Poppins;
   scroll-behavior: smooth; }
 
-nav {
-  overflow: hidden;
-  background-color: white;
+.topnav {
   position: fixed;
-  top: 0;
-  left: 0;
+  z-index: 500;
   width: 100%;
-  z-index: 99999; }
-  nav a:hover {
-    color: #e38f84; }
-  nav ul {
-    text-align: center;
-    list-style-type: none;
-    list-style-type: none;
-    margin: 0;
-    padding: 20px;
-    margin-left: 21%;
-    margin-top: -7%; }
-    nav ul li {
-      display: inline;
-      font-family: "poppins", sans-serif;
-      font-size: 1.25rem; }
-      nav ul li a {
-        color: #666666;
-        text-decoration: none;
-        margin-left: 40px;
-        padding: 14px;
-        font-family: poppins; }
-        nav ul li a a:hover {
-          color: #e38f84; }
+  background-color: white; }
+  .topnav form {
+    margin-top: -9px; }
+    .topnav form .input-1 {
+      border-radius: 4px;
+      border: 1px #e7e7e7 solid;
+      padding: 10px 27px; }
+
+.topnav input[type="text"] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 1.0625rem;
+  border: 1px solid lightgray; }
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #666666;
+  text-align: center;
+  padding: 13px 37px;
+  text-decoration: none;
+  font-size: 1.0625rem;
+  margin-top: 2%; }
+
+.topnav a:hover {
+  color: #e38f84; }
+
+.topnav .icon {
+  display: none; }
 
 .search-container {
   display: inline-block; }
@@ -53,14 +56,14 @@ nav {
 .topnav a {
   float: left;
   display: block;
-  color: black;
+  color: #666666;
   text-align: center;
-  padding: 14px 16px;
+  padding: 13px 37px;
   text-decoration: none;
   font-size: 1.0625rem; }
 
 form {
-  margin-top: 10px; }
+  margin-top: -9px; }
   form .input-1 {
     border-radius: 4px;
     border: 1px #e7e7e7 solid;
@@ -75,12 +78,6 @@ form {
   background: transparent;
   border: 1px solid lightgrey;
   margin-left: -5px; }
-
-.topnav input[type="text"] {
-  padding: 6px;
-  margin-top: 8px;
-  font-size: 1.0625rem;
-  border: none; }
 
 .topnav .search-container button {
   float: right;
@@ -378,15 +375,6 @@ html {
 
 .topnav {
   overflow: hidden; }
-
-.topnav a {
-  float: left;
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 1.0625rem; }
 
 form {
   margin-top: 10px; }
@@ -1400,7 +1388,7 @@ footer {
       text-align: center;
       position: relative;
       font-size: 1rem;
-      top: 50%;
+      top: 64%;
       left: 50%;
       transform: translate(-50%, -50%);
       color: #f9f9f9; }
@@ -1417,9 +1405,9 @@ footer {
       margin-left: -22%; }
 
   .first-image {
-    display: grid;
+    display: initial;
     grid-template-columns: auto;
-    margin-left: -38%; }
+    margin-left: -46%; }
 
   .container2 .first-image img {
     width: 98%;
@@ -1434,11 +1422,56 @@ footer {
     color: #f9f9f9;
     grid-template-columns: auto;
     padding: 50px;
-    margin-top: 250%; }
+    margin-top: 283%; }
 
   .container4 {
     padding-top: 4%;
-    margin-left: 67px; } }
+    margin-left: 53px; }
+
+  .sub-content {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 0px;
+    margin-left: 52px;
+    margin-bottom: 8%; }
+
+  .second-image {
+    margin-left: -46%; }
+
+  .sub-container4 .second-image img {
+    width: 93%;
+    padding: 5px;
+    height: 108%; }
+
+  .container5 {
+    background-color: white;
+    height: 63%;
+    margin-left: 48px; }
+
+  .container5 .subsection {
+    display: inline-grid;
+    grid-template-columns: auto; }
+
+  .container6 {
+    background-color: black;
+    height: 51%;
+    width: 100%;
+    margin-top: 392%;
+    /* font-size: 6px; */ }
+
+  .container6 .count {
+    width: 34px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 2.125rem;
+    font-family: verdana;
+    float: left;
+    border-top: 4px solid #e38f84;
+    margin: 38px; } }
 @media (min-width: 240px) and (max-width: 320px) {
   html, body {
     width: auto;
@@ -1532,10 +1565,34 @@ footer {
     color: #f9f9f9;
     grid-template-columns: auto;
     padding: 50px;
-    margin-top: 250%; }
+    margin-top: 319%; }
+
+  .container3 p {
+    color: #e7e7e7;
+    margin-left: 16%; }
 
   .container4 {
     padding-top: 4%;
     margin-left: 67px; } }
+@media screen and (max-width: 600px) {
+  .topnav :not(:first-child) {
+    display: none; }
+
+  .topnav a.icon {
+    float: right;
+    display: block; } }
+@media screen and (max-width: 600px) {
+  .topnav a.responsive {
+    position: relative; }
+
+  .topnav a.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0; }
+
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left; } }
 
 /*# sourceMappingURL=styles.css.map */
