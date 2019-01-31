@@ -524,7 +524,7 @@ height: 47px;
     text-align: center;
     position: relative;
     font-size: 1rem;
-    top: 64%;
+    top: 54%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: $secondary-background;
@@ -548,12 +548,15 @@ height: 47px;
   display: initial;
   grid-template-columns: auto;
   margin-left: -82%;
+  max-width: 100%;
+}
 }
 .container2 .first-image img {
-  width: 98%;
-  padding: 5px;
+  // width: 98%;
+  // padding: 5px;
   height: 26%;
-  grid-gap: 300px;
+  // grid-gap: 300px;
+  // max-width: 100%;
 }
 .container3 {
   background-color: black;
@@ -587,6 +590,7 @@ height: 47px;
   background-color: white;
   height: 63%;
   margin-left: 48px;
+  margin-top: 199%;
 }
 .container5 .subsection {
   display: inline-grid;
@@ -596,7 +600,7 @@ height: 47px;
   background-color: black;
   height: 51%;
   width: 100%;
-  margin-top: 534%;
+  margin-top: 595%;
   /* font-size: 6px; */
 }
 .container6 .count {
@@ -613,7 +617,7 @@ height: 47px;
   border-top: 4px solid #e38f84;
   margin: 29px;
 }
-}
+
 @media (min-width: 240px) and (max-width: 320px) {
   html, body {
     width: auto;
